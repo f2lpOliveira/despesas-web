@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/segundaServlet")
+@WebServlet(urlPatterns = {"/primeiraServlet", "xpto"})
 public class PrimeiraServlet extends HttpServlet {
 
   @Override
